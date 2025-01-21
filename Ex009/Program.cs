@@ -21,11 +21,26 @@
             if ((ladoA < ladoB + ladoC) && (ladoB < ladoA + ladoC) && (ladoC < ladoA + ladoC))
             {
                 Console.WriteLine("Os valores informados formam um triângulo.");
+                if ((ladoA == ladoB) && (ladoB == ladoC))
+                {
+                    Console.WriteLine("E ele é um triângulo Equilátero.");
+                }
+                else if ((ladoA == ladoB) || (ladoB == ladoC) || (ladoB == ladoC))
+                {
+                    Console.WriteLine("E ele é um tringulo Isósceles");
+                }
+                else
+                {
+                    Console.WriteLine("E ele é um trinagulo Escaleno"):
+                }
+                   
             }
             else
             {
-                Console.WriteLine("Os valores informados não formam um triângulo");
+                Console.WriteLine("Os valores informados não formam um triânguloo");
             }
+
+
         }
     }
 }
