@@ -31,7 +31,7 @@
                 }
                 else
                 {
-                    Console.WriteLine("E ele é um trinagulo Escaleno"):
+                    Console.WriteLine("E ele é um trinagulo Escaleno");
                 }
                    
             }
