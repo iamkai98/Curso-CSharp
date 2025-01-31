@@ -27,8 +27,6 @@
             Console.WriteLine(numeros.Max());
             Console.WriteLine(numeros.Min());
             Console.WriteLine(numeros.Average());
-
-
         }
     }
 }
